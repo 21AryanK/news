@@ -1,0 +1,43 @@
+body{
+    margin: 50px 30px 50px 30px;
+}
+
+.head-line{
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #ed0e0e;  /* old IE */
+    background-color: #ed0e0e;
+}
+
+.head-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-section-one{
+    text-align: center;
+    padding-right: 20px;
+}
+
+.sec-sub-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vl {
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 800px;
+    position: relative;
+    right: 35px;
+}
+
+.boxed {
+    border: 2px solid black ;
+    padding: 10px;
+  }
